@@ -41,7 +41,6 @@ var verbos = [
     {"nombre":"ask around ",	"significado":"Invitar a alguien.",	"ejemplo":"we asked them around for dinner."},
     {"nombre":"ask for",	"significado":"comportarse de una manera que hace probable que le ocurra una cosa desagradable en particular",	"ejemplo":"be asking for it: anyone who drives while they’re drunk is just asking for it."},
     {"nombre":"ask for",	"significado":"hablar o escribir a alguien porque quieres que te dé algo",	"ejemplo":"he’s always reluctant to ask for anyone’s help."},
-    {"nombre":"ask for",	"significado":"se utiliza para enfatizar que algo es tan bueno que nada podría ser mejor",	"ejemplo":""},
     {"nombre":"ask in",	"significado":"invitar a alguien a entrar en un edificio o habitación, especialmente en tu casa",	"ejemplo":"mike is at the door. ask him in."},
     {"nombre":"ask out",	"significado":"invitar a alguien a una cita.",	"ejemplo":"he wanted to ask her out but was too shy."},
     {"nombre":"ask over",	"significado":"Invitar.",	"ejemplo":"they have asked us over for drinks on friday."},

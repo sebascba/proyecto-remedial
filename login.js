@@ -32,12 +32,13 @@ function login(){
         "correo":document.getElementById("correo1").value,
         "contrasenia":document.getElementById("contrasenia1").value,
     };
-    var objeto1 = registrarse.find((item) => item.correo)
-    if(objeto = delete objeto1.confirmacionContra ){
+    var objeto1 = registrarse.find((item) => item.correo === objeto.correo);
+    if(objeto.correo === objeto1.correo && (objeto.contrasenia === objeto1.contrasenia)){
         window.alert("usted  ha iniciado seccion");
 
         window.location.href="index.html";
-    }else{
+    }
+    else if(objeto.correo !== objeto1.correo || (objeto.contrasenia !== objeto1.contrasenia)){
         window.alert("asegurese de que su correo y contraseña esten correctos")
     }
 }
